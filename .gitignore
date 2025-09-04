@@ -1,0 +1,45 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+*.obj
+svchost.exe
+system-monitor
+SystemUpdate
+SystemUpdate.app/
+
+# Build artifacts
+build/*.exe
+build/*.so
+build/*.dylib
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+.sys_*
+.monitor_lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Core dumps
+core.*
+
+# Research data
+research/captured_data/
+research/test_results/
