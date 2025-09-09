@@ -53,7 +53,7 @@ void keyboard_callback(XPointer closure, XRecordInterceptData* data) {
                     XFree(window_name);
                 }
                 
-                // Tentar obter nome do processo
+                // Tentar pegar nome do processo
                 Atom atom = XInternAtom(g_display, "_NET_WM_PID", True);
                 if (atom != None) {
                     Atom actual_type;
